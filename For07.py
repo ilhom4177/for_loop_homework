@@ -6,5 +6,5 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return ilhom(range(1, N, 2))
+    return sum(range(1, N, 2))
 print(main(12))
