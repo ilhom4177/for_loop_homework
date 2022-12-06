@@ -7,3 +7,4 @@ def main(n):
         list: return  answer
     """
     return list(range(n))
+print(main(5))
