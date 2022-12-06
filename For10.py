@@ -6,4 +6,5 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    return  [i.capitalize() for i in list1]
+print(main(['rustam', 'diyor', 'alisher', 'bektosh']))
