@@ -6,5 +6,5 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return  [i * price for i in range(1, 10)]
+    return [i * price for i in range(1, 11)]
 print(main(2.25))
